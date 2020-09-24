@@ -299,7 +299,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1157254855}
   m_LocalRotation: {x: -0.38537058, y: -0.05338521, z: 0.022337135, w: -0.9209455}
-  m_LocalPosition: {x: -10.552082, y: 34.000027, z: -53.96588}
+  m_LocalPosition: {x: -10.552082, y: 20.5, z: -13.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -357,7 +357,6 @@ GameObject:
   - component: {fileID: 1848800263}
   - component: {fileID: 1848800262}
   - component: {fileID: 1848800261}
-  - component: {fileID: 1848800260}
   m_Layer: 0
   m_Name: TargetSphere
   m_TagString: Untagged
@@ -365,19 +364,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!135 &1848800260
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1848800259}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1848800261
 MeshRenderer:
   m_ObjectHideFlags: 0
