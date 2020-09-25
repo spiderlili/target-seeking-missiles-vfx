@@ -12,6 +12,7 @@ public class Drive : MonoBehaviour
     public GameObject shell;
     public GameObject shellSpawner;
     public GameObject target;
+    public static bool stopFollowTargetPostLaunch = true;
 
     void Update()
     {
@@ -43,8 +44,14 @@ public class Drive : MonoBehaviour
         {
             GameObject bullet = Instantiate(shell, shellSpawner.transform.position,
                 shellSpawner.transform.rotation);
-            bullet.GetComponent<Target>().targetPosition = target; //pass through the target game object to each bullet, so they knows where it is
+            if (stopFollowTargetPostLaunch == true)
+            {
+                bullet.GetComponent<Target>().targetPositionVector = target.transform.position;
+            }
+            else
+            {
+                bullet.GetComponent<Target>().targetPosition = target; //pass through the target game object to each bullet, so they knows where it is
+            }
         }
-
     }
 }
