@@ -43,7 +43,7 @@ public class Drive : MonoBehaviour
         {
             GameObject bullet = Instantiate(shell, shellSpawner.transform.position,
                 shellSpawner.transform.rotation);
-            bullet.GetComponent<Rigidbody>().AddForce(bullet.transform.forward * 1000);
+            bullet.GetComponent<Target>().targetPosition = target; //pass through the target game object to each bullet, so they knows where it is
         }
 
     }
