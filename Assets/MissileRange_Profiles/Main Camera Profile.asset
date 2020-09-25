@@ -21,7 +21,7 @@ MonoBehaviour:
     value: 1
   threshold:
     overrideState: 1
-    value: 1.2
+    value: 1.1
   softKnee:
     overrideState: 0
     value: 0.5
@@ -1443,7 +1443,7 @@ MonoBehaviour:
     value: 5.6
   focalLength:
     overrideState: 1
-    value: 116
+    value: 110
   kernelSize:
     overrideState: 0
     value: 1
