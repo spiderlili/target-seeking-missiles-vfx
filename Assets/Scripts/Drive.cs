@@ -13,6 +13,9 @@ public class Drive : MonoBehaviour
     public GameObject shellSpawner;
     public GameObject target;
     public static bool stopFollowTargetPostLaunch = true;
+    public float cameraShakeAmplitudeIntensity = 3f;
+    public float cameraShakeFrequencyIntensity = 1f;
+    public float cameraShakeTime = 0.4f;
 
     void Update()
     {
@@ -52,6 +55,11 @@ public class Drive : MonoBehaviour
             {
                 bullet.GetComponent<Target>().targetPosition = target; //pass through the target game object to each bullet, so they knows where it is
             }
+
+            //Trigger camera shake
+            CinemachineCameraShake.Instance.ShakeCamera(cameraShakeAmplitudeIntensity, cameraShakeFrequencyIntensity, cameraShakeTime);
+            //TODO: Instantiate muzzle flash VFX
+
         }
     }
 }

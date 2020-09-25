@@ -118,7 +118,7 @@ public class Target : MonoBehaviour
                     isWaypointVisited = true;
                 }
 
-                if (isWaypointVisited = true)
+                if (isWaypointVisited == true)
                 {
                     lookAtGoal = new Vector3(targetPositionVector.x, targetPositionVector.y, targetPositionVector.z);
                     //change the rotation inside the update each time: previously the rotation was just set in the start, now change it each time

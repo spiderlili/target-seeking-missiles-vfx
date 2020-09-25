@@ -242,6 +242,8 @@ MonoBehaviour:
   shell: {fileID: 1668605919893550, guid: 3c44bccc7b5ed4b45893fefe2b6587da, type: 3}
   shellSpawner: {fileID: 1700816173188140108}
   target: {fileID: 0}
+  cameraShakeIntensity: 3
+  cameraShakeTime: 0.3
 --- !u!1 &1700816173822550555
 GameObject:
   m_ObjectHideFlags: 0
