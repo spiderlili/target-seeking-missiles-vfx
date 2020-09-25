@@ -235,9 +235,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c72feb125ace47269b40a905b514799, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 15
   rotationSpeed: 100
-  turretSpeed: 0.2
+  turretSpeed: 2
   turret: {fileID: 1700816173822550547}
   shell: {fileID: 1668605919893550, guid: 3c44bccc7b5ed4b45893fefe2b6587da, type: 3}
   shellSpawner: {fileID: 1700816173188140108}

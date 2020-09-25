@@ -125,5 +125,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPosition: {fileID: 0}
+  rotationSpeed: 50
+  speed: 8
   targetPositionVector: {x: 0, y: 0, z: 0}
   stopFollowTargetPostLaunch: 1
+  explosionVFX: {fileID: 151086, guid: ee49a9a8678ecf8468eb488e1ac8d42b, type: 3}
