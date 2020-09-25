@@ -509,7 +509,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5600703316537052013}
   m_Layer: 0
-  m_Name: Root
+  m_Name: TargetRobotRoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1240,7 +1240,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3944640095081207472}
   m_Layer: 0
-  m_Name: Head
+  m_Name: TargetHead
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

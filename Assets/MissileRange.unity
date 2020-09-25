@@ -599,10 +599,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3351141993020065184, guid: 04151f2ffd0106241a59fcc57093b4a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 5921839334328138782, guid: 04151f2ffd0106241a59fcc57093b4a2,
         type: 3}
       propertyPath: m_Name
       value: Target Robot Kyle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5921839334328138782, guid: 04151f2ffd0106241a59fcc57093b4a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Target
       objectReference: {fileID: 0}
     - target: {fileID: 7238903800567074317, guid: 04151f2ffd0106241a59fcc57093b4a2,
         type: 3}

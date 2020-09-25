@@ -63,10 +63,20 @@ public class Target : MonoBehaviour
         Destroy(this.gameObject); //delete  bullet
     }
 
+    //prevent waypoint finding error: circling around waypoints when bullets aren't slow enough / don't have enough of a tight turn to hit whatever that waypoint is at that location
+    private float ScaleMovement(Vector3 goal, float currentSpeed) //TODO: can pass through the rotation if want to scale that with respect to these rotations
+    {
+        Vector3 dir = goal - this.transform.position;
+        dir.Normalize();
+        float scale = Mathf.Clamp(Vector3.Dot(this.transform.forward, dir), 0.0f, 1.0f);
+        //stop the bullet in its path by setting speed to 0 if dot product returns 0 (at 90 to the direction it needs to be travelling in), add 0.1f to not stop completely
+        return scale * currentSpeed + 0.1f; //full speed ahead if travelling parallel to the direction you need to be going in - heading directly to the goal/waypoint
+    }
+
     private void LateUpdate()
     {
-        //randomWaypointHeight = Random.Range(10f, 100f);
-        //randomWaypointInterpolator = Random.Range(0.5f, 0.8f);
+        randomWaypointHeight = Random.Range(4f, 6f);
+        randomWaypointInterpolator = Random.Range(0.5f, 0.7f);
 
         if (stopFollowTargetPostLaunch == false)
         {
@@ -123,7 +133,9 @@ public class Target : MonoBehaviour
 
             directionToGoal = lookAtGoal - this.transform.position;
             this.transform.rotation = Quaternion.Slerp(this.transform.rotation, Quaternion.LookRotation(directionToGoal), Time.deltaTime * rotationSpeed);
-            this.transform.Translate(0, 0, speed * Time.deltaTime);
+
+            //return adjusted speed to prevent waypoint circling issues
+            this.transform.Translate(0, 0, ScaleMovement(lookAtGoal, speed * Time.deltaTime));
         }
     }
 }
