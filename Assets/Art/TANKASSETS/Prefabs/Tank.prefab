@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1700816173188140109}
+  - component: {fileID: 6873625555237603353}
   m_Layer: 0
   m_Name: bulletSpawner
   m_TagString: Untagged
@@ -30,6 +31,21 @@ Transform:
   m_Father: {fileID: 1700816173822197299}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -30, y: 0, z: 0}
+--- !u!114 &6873625555237603353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700816173188140108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 327993052b755334dba60418ea4db105, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fireObject: {fileID: 2567916002047446396, guid: 787fdb8210e3fef4db0931e2c7d48ebf,
+    type: 3}
+  timeInterval: 0.1
 --- !u!1 &1700816173822550545
 GameObject:
   m_ObjectHideFlags: 0
@@ -242,8 +258,9 @@ MonoBehaviour:
   shell: {fileID: 1668605919893550, guid: 3c44bccc7b5ed4b45893fefe2b6587da, type: 3}
   shellSpawner: {fileID: 1700816173188140108}
   target: {fileID: 0}
-  cameraShakeIntensity: 3
-  cameraShakeTime: 0.3
+  cameraShakeAmplitudeIntensity: 3
+  cameraShakeFrequencyIntensity: 2
+  cameraShakeTime: 0.8
 --- !u!1 &1700816173822550555
 GameObject:
   m_ObjectHideFlags: 0

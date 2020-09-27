@@ -5,7 +5,7 @@ using UnityEngine;
 public class RepeatFire : MonoBehaviour
 {
     public GameObject fireObject;
-    public float timeInterval;
+    public float timeInterval; //how long in between firing
     private float timeIncrement;
     private bool isFiring = false;
 
