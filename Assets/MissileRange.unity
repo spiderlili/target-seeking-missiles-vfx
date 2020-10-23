@@ -702,14 +702,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 822042873, guid: 2cc5b66d60538d243af0a054069fec7d, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: b3169952e5d6f5a4e95816c4cf8e3d69, type: 2}
-    - target: {fileID: 822042874, guid: 2cc5b66d60538d243af0a054069fec7d, type: 3}
-      propertyPath: UVModule.enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1401071343576681442, guid: 2cc5b66d60538d243af0a054069fec7d,
         type: 3}
       propertyPath: m_Name
