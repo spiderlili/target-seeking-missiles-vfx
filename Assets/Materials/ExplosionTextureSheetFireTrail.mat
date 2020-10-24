@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SmokeSingleTexture
+  m_Name: ExplosionTextureSheetFireTrail
   m_Shader: {fileID: 4800000, guid: 53c1d82a351f3d74e9725eb3f0fa8352, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -40,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 8fd10b373577c0d4cbf7261ccb54662c, type: 3}
+        m_Texture: {fileID: 2800000, guid: 6682f449e23a804449e025c26a2c1581, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -73,5 +73,5 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.754717, g: 0.68092155, b: 0.53755784, a: 0.36078432}
+    - _Color: {r: 1, g: 0.99239814, b: 0.9103774, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
