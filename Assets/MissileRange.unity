@@ -814,10 +814,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 822042874, guid: 2cc5b66d60538d243af0a054069fec7d, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 535815335760267878, guid: 2cc5b66d60538d243af0a054069fec7d,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401071343227946007, guid: 2cc5b66d60538d243af0a054069fec7d,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1401071343576681442, guid: 2cc5b66d60538d243af0a054069fec7d,
         type: 3}
       propertyPath: m_Name
       value: Explosion
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401071343576681468, guid: 2cc5b66d60538d243af0a054069fec7d,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1401071343576681469, guid: 2cc5b66d60538d243af0a054069fec7d,
         type: 3}
@@ -879,21 +898,51 @@ PrefabInstance:
       propertyPath: LightsModule.light
       value: 
       objectReference: {fileID: 2078958096}
+    - target: {fileID: 1489611602160193495, guid: 2cc5b66d60538d243af0a054069fec7d,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2584002021067317180, guid: 2cc5b66d60538d243af0a054069fec7d,
+        type: 3}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 2078958096}
+    - target: {fileID: 2584002021067317180, guid: 2cc5b66d60538d243af0a054069fec7d,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4116742724132194157, guid: 2cc5b66d60538d243af0a054069fec7d,
         type: 3}
       propertyPath: LightsModule.light
       value: 
       objectReference: {fileID: 2078958096}
     - target: {fileID: 4116742724132194157, guid: 2cc5b66d60538d243af0a054069fec7d,
         type: 3}
-      propertyPath: LightsModule.light
-      value: 
-      objectReference: {fileID: 2078958096}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8518405947539509524, guid: 2cc5b66d60538d243af0a054069fec7d,
         type: 3}
       propertyPath: LightsModule.light
       value: 
       objectReference: {fileID: 2078958096}
+    - target: {fileID: 8518405947539509524, guid: 2cc5b66d60538d243af0a054069fec7d,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9158661273878131227, guid: 2cc5b66d60538d243af0a054069fec7d,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9191408346255796330, guid: 2cc5b66d60538d243af0a054069fec7d,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cc5b66d60538d243af0a054069fec7d, type: 3}
 --- !u!1 &1592333961392651444 stripped
