@@ -129,5 +129,6 @@ MonoBehaviour:
   speed: 12
   targetPositionVector: {x: 0, y: 0, z: 0}
   stopFollowTargetPostLaunch: 1
-  explosionVFX: {fileID: 151086, guid: 7039fec4113349348b7125bcffa47ac4, type: 3}
+  explosionVFX: {fileID: 2999729537332282492, guid: 148a7d341ced27f4fba7849abe6b7da1,
+    type: 3}
   useMultipleWaypoints: 1
